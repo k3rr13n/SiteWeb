@@ -1,18 +1,51 @@
+/*Setup*/
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+body h1, h3 {
+    margin: 0 0 14px
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header + Nav*/
+header {
+    margin-bottom: 10px;
+}
 
 .navheader {
     text-align: center;
-    
 }
 
-.navheader ul li {
+.navheader a li {
     list-style:none;
-    border: 1px solid black;
-    border-radius: 30px;
-    cursor: pointer;
+    border: 1px solid #9678d3;
+    border-radius: 35px;
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
 }
 
 .navheader a {
     text-decoration: none;
+}
+
+.navheader a li:hover {
+    background-color: #9678d3;
+    color: white;
+}
+
+.header_img {
+    width: 250px;
 }
 
 /*Fiche Identité*/
@@ -21,3 +54,6 @@
     border:1px solid black;
     border-radius: 30px;
 }
+
+
+
