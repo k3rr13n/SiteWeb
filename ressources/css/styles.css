@@ -59,9 +59,18 @@ header {
     transition: 0.2S;
 }
 
+.fiche1 img {
+    width: 90px;
+    height: 90px;
+}
+
 .ficheidentité article:hover {
     filter: blur(0px);
     transition: 0.2s;
+}
+
+.ficheidentité img {
+    max-width: 150px;
 }
 
 /*Image*/

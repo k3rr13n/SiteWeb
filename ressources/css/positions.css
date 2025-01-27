@@ -5,23 +5,27 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    flex-basis: auto;
+
 
     
 }
-.navheader ul a li
- {
+.navheader ul a li{
     padding: 10px;
 }
 
-
+.navheader{
+    width: 70%;
+    flex-shrink:1;
+    
+}
 .navheader ul{
     display: flex;
     flex-wrap: nowrap;
     padding-left: 0px;
-    justify-content: space-evenly;    
-    max-width: calc(25% - 10px) :
-
+    margin: 0px;
+    justify-content: center;
+    
+    
 }
 
 .navheader li{
@@ -36,7 +40,6 @@ header {
 .ficheidentité {
     display: flex;
     flex-wrap: nowrap;
-    
 }
 
 .ficheidentité article{
@@ -49,4 +52,10 @@ header {
 
 .fichetitle {
     border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fichetitle h2{
+    text-align: center;
 }
