@@ -18,11 +18,11 @@ header {
     margin-bottom: 10px;
 }
 
-.navheader {
+.nav_header {
     text-align: center;
 }
 
-.navheader a li {
+.nav_header a li {
     list-style:none;
     border: 1px solid #9678d3;
     border-radius: 35px;
@@ -34,11 +34,11 @@ header {
     transition-duration: 0.3s;
 }
 
-.navheader a {
+.nav_header a {
     text-decoration: none;
 }
 
-.navheader a li:hover {
+.nav_header a li:hover {
     background-color: #9678d3;
     color: white;
 }
@@ -47,9 +47,7 @@ header {
     max-width: 250px;
 }
 
-
-/*Fiche Identité*/
-
+/*Fiche Identité - Header*/
 .ficheidentité article {
     border:1px solid black;
     border-radius: 30px;
@@ -64,13 +62,47 @@ header {
     transition: 0.2s;
 }
 
-.divsizeimg {
-    width: 70px;
+/*Le blur est désactivé si petit écran*/
+@media (max-width: 767px) {
+    .ficheidentité article {
+        filter: none;
+    }
 }
 
-.ficheidentité img {
+.fiche_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fiche_header_img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+.fiche_header_img img {
     max-width: 100%;
     height: auto;
+}
+
+.fiche_header_title {
+    flex: 1;
+}
+
+.fiche_header_text {
+    margin: 0px;
+    font-size: 1.5em;
+    color: red;
+}
+/*Fiche Identité - Body*/
+.fiche_body {
+    margin-top: 10px;
+}
+
+.fiche_body_text {
+    margin: 0px;
+    font-size: 1em;
+    color: blueviolet;
 }
 
 /*Image*/

@@ -5,57 +5,55 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-
-
-    
-}
-.navheader ul a li{
     padding: 10px;
 }
 
-.navheader{
-    width: 70%;
-    flex-shrink:1;
-    
+.nav_header ul a li{
+    padding: 10px;
 }
-.navheader ul{
+
+.nav_header{
+    width: 100%;
+    text-align: center;   
+}
+
+.nav_header ul{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-left: 0px;
     margin: 0px;
-    justify-content: center;
-    
-    
 }
 
-.navheader li{
-    flex-basis: 19%;
-    margin-left: 5px;
-    margin-right: 5px;
-
+.nav_header li{
+    flex-basis: 100%;
+    margin: 5px;
 }
 
 /*Fiche Identité*/
 
 .ficheidentité {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ficheidentité article{
-    flex-basis: 30%;
-    flex-grow: 1;
-    margin-left: 5px;
-    margin-right: 5px;
+    flex-basis: 100%;
+    margin: 10px;
     padding: 8px;
 }
 
-.fichetitle {
+.fiche_header {
     border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.fichetitle h2{
-    text-align: center;
+/*Les fiches d'indzentité s'empile si écran trop petit*/
+@media (min-width: 768px) {
+    .ficheidentité article {
+        flex-basis: 30%;
+    }
 }
+
