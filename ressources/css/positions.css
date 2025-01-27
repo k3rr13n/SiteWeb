@@ -14,11 +14,11 @@ header {
     display: flex;
     flex-wrap: nowrap;
     padding-left: 0px;
+
 }
 
 .navheader li{
-    flex-basis: 19%;
-    flex-grow: 1;
+    flex-basis: 0%;
     margin-left: 5px;
     margin-right: 5px;
 }
