@@ -50,10 +50,28 @@ header {
     flex-wrap: nowrap;
 }
 
-/*Les fiches d'indzentité s'empile si écran trop petit*/
+/*Les fiches d'indentité s'empile si écran trop petit*/
 @media (min-width: 768px) {
     .ficheidentité article {
         flex-basis: 30%;
     }
 }
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
 
+.nav_footer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section_footer {
+    margin: 30px;
+}
