@@ -16,6 +16,7 @@ body {
 /*Header + Nav*/
 header {
     margin-bottom: 10px;
+    border-bottom: 1px solid black;
 }
 
 .nav_header {
