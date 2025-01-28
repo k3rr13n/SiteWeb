@@ -30,7 +30,7 @@ header {
     background-color: #ddd;
     color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     margin: 5px 7px;
     transition-duration: 0.3s;
 }
@@ -45,7 +45,7 @@ header {
 }
 
 .header_img {
-    max-width: 250px;
+    max-width: 150px;
 }
 
 /*Fiche Identité - Header*/
