@@ -65,6 +65,13 @@ header {
     margin-left: 50px;
 }
 
+.intro {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
 main {
     flex: 1;
     margin: 5px;
