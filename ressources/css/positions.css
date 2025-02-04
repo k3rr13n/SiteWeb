@@ -65,11 +65,8 @@ header {
     margin-left: 50px;
 }
 
-.intro {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
+.desctitle {
+    margin: 20px 50px 30px 50px;
 }
 
 main {
@@ -107,3 +104,41 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+
+/*Accueil*/
+
+.fiche_accueil {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fiche_accueil article {
+    flex-basis: 75%;
+    margin: 10px;
+    padding: 8px;
+}
+
+.fiche_entreprise_informatique {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: right;
+}
+
+.fiche_organisation_publiques {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fiche_associations {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fiche_autre_entreprises {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
