@@ -38,7 +38,7 @@ p {
 header {
     margin: 10px;
     border-bottom: 1px solid black;
-    border-radius: 35px;
+    border-radius: 30px; /* Assurez-vous qu'il n'y a pas de conflit ici */
     background-color: #FFFFFF; 
 }
 
@@ -70,7 +70,7 @@ header {
 /*Fiche Identité - Header*/
 .ficheidentité article {
     border:1px solid black;
-    border-radius: 30px;
+    border-radius: 30px; /* Assurez-vous qu'il n'y a pas de conflit ici */
     background-color: white;
     box-shadow: 0px 0px 10px 1px #9678d3;
     filter: blur(2px);
@@ -200,6 +200,7 @@ main {
     overflow: hidden;
     margin-top: 30px;
     margin-left: 50px;
+    border: 1px solid #ddd; /* Ajout d'une bordure pour les bords arrondis */
 }
 
 /*Haut Tableau (Titre)*/
@@ -236,7 +237,7 @@ main {
 /*Accueil - Header*/
 .fiche_accueil article {
     border:1px solid black;
-    border-radius: 30px;
+    border-radius: 30px; /* Assurez-vous qu'il n'y a pas de conflit ici */
     background-color: white;
     box-shadow: 0px 0px 10px 1px #9678d3;
     filter: blur(2px);
@@ -285,8 +286,37 @@ main {
     font-size: 1em;
     color: blueviolet;
     max-width: 600px;
-    margin-bottom: 5px;
 }
 
 
+/* modification louis tableau points forts / points faibles */
+.Comparaison_orgapublic {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px 1px #9678d3;
+    border-radius: 30px; 
 
+    filter: blur(2px); 
+    transition: 0.2s;
+}
+
+.Comparaison_orgapublic:hover {
+    filter: blur(0px);
+    transition: 0.2s;
+}
+
+.orgapublic_table {
+    border-collapse: collapse;
+}
+
+.orgapublic_table th, .orgapublic_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+
+}
+
+.orgapublic_table th {
+    background-color: #9678d3;
+    color: white;
+}

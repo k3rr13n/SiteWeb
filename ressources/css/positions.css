@@ -142,3 +142,12 @@ html, body {
     flex-wrap: nowrap;
 }
 
+
+/* modif louis fiche points forts / points faibles */
+.Comparaison_orgapublic {
+    width: 94%; 
+    margin: 20px auto ; 
+    padding: 10px;
+
+}
+
