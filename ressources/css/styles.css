@@ -12,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: lightgrey;
+    overflow-x: hidden; /* enleve de defillement sur le cote horizontal pas sure sure que ce soit bien mais ca fonctionne */
 }
 
 h1 {
@@ -290,13 +291,16 @@ main {
 
 
 /* modification louis tableau points forts / points faibles */
+.Comparaison_orgapublic h2{
+    font-size : 2em;
+    
+}
 .Comparaison_orgapublic {
     margin: 20px;
     padding: 10px;
     background-color: #f9f9f9;
     box-shadow: 0px 0px 10px 1px #9678d3;
     border-radius: 30px; 
-
     filter: blur(2px); 
     transition: 0.2s;
 }
@@ -307,7 +311,8 @@ main {
 }
 
 .orgapublic_table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 .orgapublic_table th, .orgapublic_table td {
@@ -315,8 +320,23 @@ main {
     padding: 10px;
 
 }
-
 .orgapublic_table th {
     background-color: #9678d3;
     color: white;
 }
+.orgapublic_table th:first-child {
+    border-top-left-radius: 30px;
+}
+
+.orgapublic_table th:last-child {
+    border-top-right-radius: 30px;
+}
+
+.orgapublic_table tr:last-child td:first-child {
+    border-bottom-left-radius: 30px;
+}
+
+.orgapublic_table tr:last-child td:last-child {
+    border-bottom-right-radius: 30px;
+}
+
