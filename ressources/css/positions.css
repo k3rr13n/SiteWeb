@@ -45,7 +45,6 @@ header {
 }
 
 .fiche {
-    border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -80,7 +79,6 @@ main {
     width: 100%;
     text-align: center;
     padding: 5px;
-    background-color: #f8f9fa;
     margin-top: auto;
 }
 
@@ -119,25 +117,22 @@ html, body {
 }
 
 .fiche_entreprise_informatique {
-    border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
     align-items: right;
 }
 
 .fiche_organisation_publiques {
-    border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
 }
+
 .fiche_associations {
-    border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .fiche_autre_entreprises {
-    border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
 }
