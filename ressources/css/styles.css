@@ -311,3 +311,37 @@ header {
     border-bottom-right-radius: 30px;
 }
 
+/* tableau entreprise info Stanislas */
+
+.taux_recrutement{
+    margin:20px;
+    padding:10px;
+    background-color:#f9f9f9;
+    box-shadow: 0px 0px 10px 1px #9678d3;
+    border-radius: 30px;
+}
+
+.recru_entrep_info {
+    border-collapse:separate;
+    border-spacing: 0;
+    table-layout:auto;
+    width: 100%;
+}
+
+.recru_entrep_info th {
+    background-color: #9678d3;
+    color:white;
+}
+
+.recru_entrep_info th, .recru_entrep_info td{
+    border: 1px solid #ddd;
+    padding:15px;
+}
+
+.recru_entrep_info tr:last-child td:first-child {
+    border-bottom-left-radius: 30px;
+}
+
+.recru_entrep_info tr:last-child td:last-child {
+    border-bottom-right-radius: 30px;
+}
