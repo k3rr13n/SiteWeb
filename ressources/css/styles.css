@@ -31,7 +31,7 @@ h4 {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
@@ -69,10 +69,6 @@ header {
 }
 
 /*Main*/
-
-.desctitle {
-    font-size: 1.3em;
-}
 
 /*Fiche Identité - Header*/
 .ficheidentité article {
@@ -167,6 +163,10 @@ header {
 
     .ficheidentité article {
         filter: none;
+    }
+
+    p {
+        font-size: 1em;
     }
 }
 
