@@ -119,7 +119,6 @@ html, body {
 .fiche_entreprise_informatique {
     display: flex;
     flex-wrap: nowrap;
-    align-items: right;
 }
 
 .fiche_organisation_publiques {
@@ -137,7 +136,26 @@ html, body {
     flex-wrap: nowrap;
 }
 
+.fiche_accueil article:nth-child(odd) { /*Impaire*/
+    margin-left: 0;
+    margin-right: auto;
+}
 
+.fiche_accueil article:nth-child(even) { /*paire*/
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right
+}
+
+.fiche_accueil article:nth-child(even) .fiche_text {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.fiche_accueil article:nth-child(even) .fiche_img {
+    margin-left: 15px;
+    margin-right: 0px;
+}
 /* modif louis fiche points forts / points faibles */
 .Comparaison_orgapublic {
     width: 94%; 
@@ -145,4 +163,3 @@ html, body {
     padding: 10px;
 
 }
-

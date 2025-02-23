@@ -121,7 +121,6 @@ header {
     margin: 0px;
     font-size: 1em;
     color: blueviolet;
-    max-width: 600px;
     margin-bottom: 5px;
 }
 
@@ -172,56 +171,18 @@ header {
 
 /*Accueil - Header*/
 .fiche_accueil article {
-    border:1px solid black;
+    width: 80%;
+    border: 1px solid black;
     border-radius: 30px;
     background-color: white;
     box-shadow: 0px 0px 10px 1px #9678d3;
     filter: blur(2px);
-    transition: 0.2S;
+    transition: 0.2s;
 }
 
 .fiche_accueil article:hover {
     filter: blur(0px);
     transition: 0.2s;
-}
-
-
-.fiche_associations {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    height: auto;
-}
-
-.fiche_img {
-    width: 150px;
-    margin-right: 15px;
-}
-
-.fiche_img img {
-    max-width: 100%;
-    height: auto;
-}
-
-.fiche_text {
-    flex: 1;
-}
-
-.fiche_header_text {
-    margin-bottom: 10px;
-    font-size: 2em;
-    color: red;
-}
-/*Fiche Identité - Body*/
-.fiche_body {
-    margin-top: 10px;
-}
-
-.fiche_body_text {
-    margin: 0px;
-    font-size: 1em;
-    color: blueviolet;
-    max-width: 600px;
 }
 
 /*-- Celestin --*/
@@ -240,7 +201,7 @@ header {
     color: #333333;
 }
 
-.faq-item {
+.faq_item {
     background-color: #FFFFFF;
     border: 1px solid #dddddd;
     border-radius: 5px;
@@ -248,18 +209,17 @@ header {
     margin-bottom: 10px;
 }
 
-.faq-item h3 {
+.faq_item h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
     color: #9678d3;
 }
 
-.faq-item p {
+.faq_item p {
     font-size: 1em;
     color: #666666;
 }
 /*Fin marque*/
-
 
 /* modification louis tableau points forts / points faibles */
 .Comparaison_orgapublic h2{
