@@ -116,6 +116,10 @@ html, body {
     padding: 8px;
 }
 
+.fiche_entreprise_informatique, .fiche_organisation_publiques, .fiche_associations, .fiche_autre_entreprises {
+    align-items: center;
+}
+
 .fiche_entreprise_informatique {
     display: flex;
     flex-wrap: nowrap;
