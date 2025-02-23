@@ -167,3 +167,10 @@ html, body {
     padding: 10px;
 
 }
+
+/* Index */
+.maintitle_index {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}

@@ -305,3 +305,34 @@ header {
 .recru_entrep_info tr:last-child td:last-child {
     border-bottom-right-radius: 30px;
 }
+
+/* -- Bastian --*/
+/* Informations complementaire */
+
+.imformations_complementaire {
+    border:1px solid black;
+    border-radius: 30px; 
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #9678d3;
+    padding:10px;
+    margin:30px;
+}
+
+.tableau_comparaison {
+    border-collapse:separate;
+    border-spacing: 0;
+    table-layout:auto;
+    width: 100%;
+}
+
+.tableau_comparaison thead td {
+    background-color: #9678d3;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableau_comparaison td, .tableau_comparaison td{
+    border: 1px solid #ddd;
+    padding:15px;
+}
