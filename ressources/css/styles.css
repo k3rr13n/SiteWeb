@@ -232,14 +232,9 @@ header {
     background-color: #f9f9f9;
     box-shadow: 0px 0px 10px 1px #9678d3;
     border-radius: 30px; 
-    filter: blur(2px); 
-    transition: 0.2s;
+
 }
 
-.Comparaison_orgapublic:hover {
-    filter: blur(0px);
-    transition: 0.2s;
-}
 
 .orgapublic_table {
     border-collapse: separate;
